@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar a minha <a href="https://github.com/Leonardocastr012" target="_blank" rel="external">conta no GitHub</a></p> <!--Usando as referências target="_blank" rel="external" para quando o site que p link vai não é seu assim ele abre em outra aba-->
+    <p>Você também pode acessar o <a href="https://www.youtube.com/@Leo-ue9xv" target="_blank" rel="external">meu canal no YouTube</a></p>
+    <h2>Usando links internos</h2>
+    <p>Está é a minha primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda página</a></p> <!--os arquivos html tem que está na mesma página-->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p><!--Mesma coisa das imagens se tiver em outra pasta a página tem que mostrar o caminho/ caso queira abrir na mesma página pode colocar nada ou usar o target="_self"-->
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="arquivos/declaracao_2022009946.pdf" download="declaracao_2022009946.pdf" type="application/pdf">Baixar a declaração em PDF</a></li>
+        <li><a href="arquivos/declaracao_2022009946.zip" download="declaracao_2022009946.zip" type="application/zip">Baixar a declaração em ZIP</a></li>
+    </ul> <!--O type você tem que saber o media types e pode encontar no https://www.iana.org/assignments/media-types/media-types.xhtml-->
+</body>
+</html>
